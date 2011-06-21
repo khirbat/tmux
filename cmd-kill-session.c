@@ -30,7 +30,7 @@
 int	cmd_kill_session_exec(struct cmd *, struct cmd_ctx *);
 
 const struct cmd_entry cmd_kill_session_entry = {
-	"kill-session", NULL,
+	"kill-session", "kills",
 	"t:", 0, 0,
 	CMD_TARGET_SESSION_USAGE,
 	0,
