@@ -1491,6 +1491,9 @@ void		 paste_add(struct paste_stack *, char *, size_t, u_int);
 int		 paste_replace(struct paste_stack *, u_int, char *, size_t);
 char		*paste_print(struct paste_buffer *, size_t);
 
+/* cmd-paste-buffer.c */
+void cmd_paste_buffer_filter(struct window_pane *, const char *, size_t, const char *);
+
 /* clock.c */
 extern const char clock_table[14][5][5];
 void		 clock_draw(struct screen_write_ctx *, int, int);
