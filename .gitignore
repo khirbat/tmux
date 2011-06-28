@@ -1,0 +1,13 @@
+*.o
+.deps/
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+*.orig
+*.rej
+config.log
+config.status
+configure
+etc/
+tmux
